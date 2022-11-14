@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto 50px;
+}
+
+nav {
+	opacity: 90%;
+	background-color: black;
+	height: 70px;
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	align-items: center;
+}
+
+.nav-items {
+	padding: 30px;
+}
+
+.nav-item {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.welcome {
+	grid-column-start: 2;
+	grid-row-start: 2;
+	text-align: center;
+	padding: 1.5em;
+	margin: 0 auto;
+}
+
+.logo {
+	grid-column-start: 2;
+	grid-row-start: 1;
+	margin: 0 auto;
+	margin-top: 12px;
+	width: 150px;
+	animation: fadeIn 3s;
+}
+
+.bmi {
+	grid-column-start: 2;
+	grid-row-start: 3;
+	width: 80vw;
+	min-height: 400px;
+	border-radius: 20px;
+	background-color: #eedaa3;
+	margin: 0 auto;
+	padding: 1.5em;
+}
+
+.ip {
+	color: green;
+}
+
+.bmi-cal-txt {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	color: #282828;
+}
+
+.user-input {
+	display: flex;
+	flex-direction: row;
+	border: none;
+	border-radius: 15px;
+	width: 140px;
+	margin: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 35px;
+}
+
+.submit-btn {
+	border: 1px solid;
+	border-radius: 6px;
+	width: 140px;
+	margin: 10px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	background-color: #1b73e7;
+	box-shadow: 2px 2px 10px black;
+	cursor: pointer;
+	display: flex;
+}
+
+.result-background {
+	margin: 20px auto;
+}
+
+.result {
+	margin: 0 auto;
+	margin-left: 40px;
+	line-height: 1.5;
+	color: #282828;
+}
+
+.about-site {
+	display: grid;
+	grid-template-columns: 100px auto 100px;
+	margin: 10px;
+}
+
+.about-txt {
+	grid-column-start: 2;
+	margin-top: 50px;
+	animation: fadeIn 2s;
+}
+
+.more {
+	border: 1px solid;
+	background-color: #1b73e7;
+	border-radius: 6px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: default;
+	margin-right: 0.5rem;
+}
+
+.climate {
+	grid-column-start: 2;
+	grid-row-start: 5;
+	width: 80vw;
+	min-height: 200px;
+	border-radius: 20px;
+	background-color: #eedaa3;
+	margin: 0 auto;
+	padding: 1.5em;
+}
+
+.effect-life-txt {
+	text-align: center;
+}
+
+.image-size {
+	width: 900px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.date {
+	color: white;
+}
+
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
