@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://healthwayseattle.n
 
 
 
-<img src="./Assets/Screenshot.png" alt="screenshot" title="screenshot">
+<img src=".components/Assets/Screenshot.png" alt="screenshot" title="screenshot">
 
 
 ### Technology Used: css, javascript, react, express, mongoose, mongo, motion-framer, express and react.js.
