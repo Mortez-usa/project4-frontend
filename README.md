@@ -5,7 +5,8 @@ This project was bootstrapped with [Create React App](https://healthwayseattle.n
 ### Description: this project is about a Health and lifestyle website and let users to  measure it's BMI and body Fat and also body burned calories each day to keep him/her alive. calories needed every day to maintain current weight based on those measurements we user can calculate ideal weight can not be calculated.
 
 
-<img width="1210" alt="Screenshot 2022-11-14 at 11 42 13 AM" src="https://user-images.githubusercontent.com/78889993/201921969-8f2f9d52-6a9d-41eb-af40-02cee80bd312.png">
+<img width="1931" alt="Screenshot 2022-11-15 at 4 13 02 AM" src="https://user-images.githubusercontent.com/78889993/201922082-5b27f96f-797e-484f-a240-e2cda0fd896a.png">
+
 
 
 ### Technology Used: css, javascript, react, express, mongoose, mongo, motion-framer, express and react.js.
