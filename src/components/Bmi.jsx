@@ -117,27 +117,6 @@ function Bmi() {
 		console.log(data);
 	};
 
-	// async function sendBmi(event) {
-	// 	event.preventDefault();
-	// 	const response = await fetch(`http://localhost:4000/api/bmi`, {
-	// 		method: 'POST',
-	// 		headers: {
-	// 			'Content-Type': 'application/json',
-	// 		},
-	// 		body: JSON.stringify({
-	// 			sleep,
-	// 			age,
-	// 			gender,
-	// 			usState,
-	// 			weight,
-	// 			height,
-	// 		}),
-	// 	});
-
-	// 	const data = await response.json();
-	// 	console.log(data);
-	// }
-
 	let reset = () => {
 		window.location.reload();
 	};
