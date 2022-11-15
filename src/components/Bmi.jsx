@@ -98,7 +98,7 @@ function Bmi() {
 				checkIdealWeight();
 			}
 		}
-		const response = await fetch(`http://localhost:4000/api/`, {
+		const response = await fetch(`https://healthway2.herokuapp.com/api/`, {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
